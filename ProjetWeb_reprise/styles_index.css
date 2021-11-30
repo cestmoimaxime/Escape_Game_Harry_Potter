@@ -1,0 +1,70 @@
+html {
+    background-color: white;
+    background-image: url(tel_hp.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    font-family: Arial;
+    width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+
+
+.menuElement a {
+    color: white; /*START*/
+    font-size: 1.2em;
+    text-decoration: none;
+    background-color: #00000018;
+    padding: 0 2px;
+    font-family:"Segoe print";
+}
+
+#content {
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
+    padding: 20px 10px;
+}
+#texte1 {
+    color: white;
+    font-size: 2em;
+}
+
+image1 {
+    height: 200px;
+    text-align: center;
+    padding-right: 5px;
+
+}
+
+
+.bold {
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+
+em {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+
+h1 {
+    font-size: 4em;
+    color: black;
+    font-family: "Segoe print";
+    text-align: center;
+    position: relative;
+}
+
+
+
+ul,li{
+    list-style-type: none;
+}
